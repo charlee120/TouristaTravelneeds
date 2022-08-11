@@ -6,6 +6,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .explore-link {
   color: #ffffff;
   text-decoration: none;
