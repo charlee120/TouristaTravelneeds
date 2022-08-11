@@ -191,3 +191,7 @@ pkgTitle.innerHTML = pkgDetails[pgdata].heading
 
 pkgDet.innerHTML = pkgDetails[pgdata].data
 
+const eqDet = document.getElementById('en-details')
+
+eqDet.innerHTML =  pkgDetails[pgdata].heading
+
