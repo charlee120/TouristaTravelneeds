@@ -3,6 +3,17 @@
 * {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
+}
+
+.explore-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.explore-link-green {
+  color: #828f46;
+  text-decoration: none;
 }
 
 /* Mobile First Design */
@@ -147,7 +158,7 @@
   margin-right: 35vw;
 }
 
-.burger {
+.burger_menu {
   position: relative;
   /* margin-left: 70vw; */
   transform: scale(1.5);
@@ -155,6 +166,54 @@
 
 .links {
   display: none;
+}
+
+/* Navbar test */
+
+.navbar_elements_div {
+  display: none;
+}
+
+.navbar_elements_burger_div {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 3rem;
+  width: 100%;
+  color: white;
+  font-family: "Suez One", serif;
+  background-color: #17252a;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.navbar_elements_burger_div a {
+  font-size: 5.5vw;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #012604;
+}
+
+.burger_menu {
+  display: block;
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 4.4rem;
+  width: 100%;
+  color: white;
+  background: #ffffff;
 }
 
 /* Best Packages Page - Developed by Shrreya - 9894816748 - shrreyaram@gmail.com */
@@ -212,6 +271,7 @@
   border-radius: 15px;
   box-shadow: -2px 0px 10px rgba(0, 0, 0, 0.13),
     2px 4px 16px rgba(0, 0, 0, 0.13);
+  cursor: pointer;
 }
 
 .imgboxex {
@@ -399,6 +459,21 @@
   font-size: 3.8vw;
 }
 
+.footer-address {
+  margin-top: 5px;
+  font-size: 3.8vw;
+}
+
+.footer-address {
+  margin-top: 5px;
+  font-size: 3.8vw;
+}
+
+.icon-div-icon {
+  filter: invert(100%) sepia(0%) saturate(7488%) hue-rotate(106deg)
+    brightness(98%) contrast(97%);
+}
+
 .footer-mail:hover {
   color: #828f46;
   font-size: 1.15rem;
@@ -462,8 +537,66 @@
     margin-right: 50vw;
   }
 
-  .burger {
+  .burger_menu {
     transform: scale(1.8);
+  }
+
+  .navbar_elements_burger_div a {
+    font-size: 3vw;
+  }
+
+  /* Best Packages Page - Developed by Shrreya - 9894816748 - shrreyaram@gmail.com */
+
+  .pack-color {
+    font-size: 13vw;
+  }
+
+  .package-color {
+    font-size: 7.5vw;
+    padding-top: 25px;
+  }
+
+  .packages-div {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+  }
+
+  .package-card {
+    width: 43vw;
+    height: auto;
+  }
+
+  .imgboxex {
+    width: 43vw;
+  }
+
+  .imgitslf {
+    width: 37vw;
+    height: auto;
+  }
+
+  .fontstxt {
+    font-size: 1vw;
+  }
+
+  .package-head {
+    font-size: 4vw;
+    width: 40vw;
+    margin: -15px 0 15px 30px;
+  }
+
+  .yelstars {
+    margin-left: 25px;
+  }
+
+  .star {
+    height: 2.5vw;
+    width: 2.5vw;
+  }
+
+  .startxt {
+    font-size: 2vw;
   }
 
   /* Footer Card Section - Developed by Surya Narayanan - 6380552829 - r.suryajeya@gmail.com */
@@ -522,6 +655,18 @@
   .footer-mail {
     font-size: 3vw;
     margin-top: 5px;
+  }
+
+  .footer-address {
+    margin-top: 15px;
+    font-size: 3vw;
+    width: 40vw;
+  }
+
+  .footer-address {
+    margin-top: 15px;
+    font-size: 3vw;
+    width: 40vw;
   }
 
   .footer-mail:hover {
@@ -607,6 +752,63 @@
 
   .burger {
     display: none;
+  }
+
+  .burger_menu {
+    display: none;
+  }
+
+  .navbar_elements_burger_div {
+    display: none;
+  }
+
+  /* Best Packages Page - Developed by Shrreya - 9894816748 - shrreyaram@gmail.com */
+
+  .pack-color {
+    font-size: 8vw;
+  }
+
+  .package-color {
+    font-size: 5vw;
+    padding-top: 25px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .packages-div {
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    row-gap: 50px;
+  }
+
+  .package-card {
+    width: 27.7vw;
+  }
+
+  .imgboxex {
+    width: 27.7vw;
+  }
+
+  .imgitslf {
+    width: 24.3vw;
+  }
+
+  .package-head {
+    font-size: 2.5vw;
+    width: 20vw;
+  }
+
+  .yelstars {
+    padding-bottom: 30px;
+  }
+
+  .star {
+    width: 1.5vw;
+    height: 1.5vw;
+  }
+
+  .startxt {
+    font-size: 1.3vw;
   }
 
   /* Footer Card Section - Developed by Surya Narayanan - 6380552829 - r.suryajeya@gmail.com */
@@ -704,6 +906,12 @@
 
   .footer-number {
     font-size: 1.1rem;
+  }
+
+  .footer-address {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    width: 250px;
   }
 
   .footer-mail:hover {

@@ -3,6 +3,22 @@
 * {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
+}
+
+.explore-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.explore-nolink {
+  text-decoration: none;
+  color: #012604;
+}
+
+.explore-link-green {
+  color: #828f46;
+  text-decoration: none;
 }
 
 /* Mobile First Design */
@@ -147,7 +163,7 @@
   margin-right: 35vw;
 }
 
-.burger {
+.burger_menu {
   position: relative;
   /* margin-left: 70vw; */
   transform: scale(1.5);
@@ -155,6 +171,54 @@
 
 .links {
   display: none;
+}
+
+/* Navbar test */
+
+.navbar_elements_div {
+  display: none;
+}
+
+.navbar_elements_burger_div {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 3rem;
+  width: 100%;
+  color: white;
+  font-family: "Suez One", serif;
+  background-color: #17252a;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.navbar_elements_burger_div a {
+  font-size: 5.5vw;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #012604;
+}
+
+.burger_menu {
+  display: block;
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 4.4rem;
+  width: 100%;
+  color: white;
+  background: #ffffff;
 }
 
 /* Landing Page - Developed by Vishal - 9498844532 - vishalchinns1650@gmail.com */
@@ -648,6 +712,16 @@
   font-size: 3.8vw;
 }
 
+.footer-address {
+  margin-top: 5px;
+  font-size: 3.8vw;
+}
+
+.icon-div-icon {
+  filter: invert(100%) sepia(0%) saturate(7488%) hue-rotate(106deg)
+    brightness(98%) contrast(97%);
+}
+
 .footer-mail:hover {
   color: #828f46;
   font-size: 1.15rem;
@@ -711,8 +785,12 @@
     margin-right: 50vw;
   }
 
-  .burger {
+  .burger_menu {
     transform: scale(1.8);
+  }
+
+  .navbar_elements_burger_div a {
+    font-size: 3vw;
   }
 
   /* Landing Page - Developed by Vishal - 9498844532 - vishalchinns1650@gmail.com */
@@ -994,6 +1072,12 @@
     margin-top: 5px;
   }
 
+  .footer-address {
+    margin-top: 15px;
+    font-size: 3vw;
+    width: 40vw;
+  }
+
   .footer-mail:hover {
     color: #828f46;
     font-size: 1.55rem;
@@ -1012,7 +1096,7 @@
   }
 
   .heading {
-    font-size: 5vw;
+    font-size: 4.3vw;
   }
 
   .subheading {
@@ -1076,6 +1160,14 @@
   }
 
   .burger {
+    display: none;
+  }
+
+  .burger_menu {
+    display: none;
+  }
+
+  .navbar_elements_burger_div {
     display: none;
   }
 
@@ -1197,12 +1289,12 @@
   }
 
   .star {
-    width: 1vw;
-    height: 1vw;
+    width: 1.5vw;
+    height: 1.5vw;
   }
 
   .startxt {
-    font-size: 1vw;
+    font-size: 1.2vw;
   }
 
   .fontsbox {
@@ -1211,7 +1303,7 @@
   }
 
   .package-head {
-    font-size: 2vw;
+    font-size: 2.5vw;
     width: 250px;
     margin-left: 25px;
   }
@@ -1414,6 +1506,11 @@
     cursor: pointer;
   }
 
+  .icon-div-icon {
+    filter: invert(100%) sepia(0%) saturate(7488%) hue-rotate(106deg)
+      brightness(98%) contrast(97%);
+  }
+
   .footer-left-details-div {
     display: flex;
     align-items: baseline;
@@ -1455,6 +1552,12 @@
 
   .footer-number {
     font-size: 1.1rem;
+  }
+
+  .footer-address {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    width: 250px;
   }
 
   .footer-mail:hover {
