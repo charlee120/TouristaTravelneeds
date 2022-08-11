@@ -225,6 +225,16 @@ body {
   background: #ffffff;
 }
 
+.whatsapp-icon {
+  position: fixed;
+  width: 50px;
+  margin-bottom: 20px;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  cursor: pointer;
+}
+
 /* Landing Page - Developed by Vishal - 9498844532 - vishalchinns1650@gmail.com */
 
 .landing-background {
@@ -797,6 +807,10 @@ body {
     font-size: 3vw;
   }
 
+  .whatsapp-icon {
+    width: 70px;
+  }
+
   /* Landing Page - Developed by Vishal - 9498844532 - vishalchinns1650@gmail.com */
 
   .land-description {
@@ -1108,7 +1122,7 @@ body {
   }
 
   .land-heading-width {
-    width: 50vw;
+    width: 45vw;
   }
 
   .heading-width {
@@ -1173,6 +1187,10 @@ body {
 
   .navbar_elements_burger_div {
     display: none;
+  }
+
+  .whatsapp-icon {
+    width: 60px;
   }
 
   /* Landing Page - Developed by Vishal - 9498844532 - vishalchinns1650@gmail.com */
