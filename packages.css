@@ -216,6 +216,16 @@
   background: #ffffff;
 }
 
+.whatsapp-icon {
+  position: fixed;
+  width: 50px;
+  margin-bottom: 20px;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  cursor: pointer;
+}
+
 /* Best Packages Page - Developed by Shrreya - 9894816748 - shrreyaram@gmail.com */
 
 .packages {
@@ -545,6 +555,10 @@
     font-size: 3vw;
   }
 
+  .whatsapp-icon {
+    width: 70px;
+  }
+
   /* Best Packages Page - Developed by Shrreya - 9894816748 - shrreyaram@gmail.com */
 
   .pack-color {
@@ -760,6 +774,10 @@
 
   .navbar_elements_burger_div {
     display: none;
+  }
+
+  .whatsapp-icon {
+    width: 60px;
   }
 
   /* Best Packages Page - Developed by Shrreya - 9894816748 - shrreyaram@gmail.com */

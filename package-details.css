@@ -138,6 +138,16 @@
   cursor: pointer;
 }
 
+.whatsapp-icon {
+  position: fixed;
+  width: 50px;
+  margin-bottom: 20px;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  cursor: pointer;
+}
+
 /* Write addition CSS here */
 
 .package-details-card {
@@ -393,6 +403,10 @@
     font-size: 3vw;
   }
 
+  .whatsapp-icon {
+    width: 70px;
+  }
+
   /* Package details card */
 
   .package-details h1 {
@@ -523,6 +537,10 @@
     width: 12.5vw;
     height: 4vw;
     font-size: 1.5vw;
+  }
+
+  .whatsapp-icon {
+    width: 60px;
   }
 
   /* Package details card */
