@@ -1100,7 +1100,7 @@ body {
   }
 
   .heading {
-    font-size: 4.3vw;
+    font-size: 3.5vw;
   }
 
   .subheading {
@@ -1387,7 +1387,7 @@ body {
   }
 
   .bgtext {
-    font-size: 5vw;
+    font-size: 4.5vw;
     /* background-color: red; */
     padding-top: 2vw;
     display: flex;
@@ -1475,7 +1475,7 @@ body {
     padding-bottom: 70px;
   }
   .getstarttext1 {
-    font-size: 6vw;
+    font-size: 4.5vw;
     margin-top: 0vw;
     margin-top: 5vw;
   }
